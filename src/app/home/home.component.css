@@ -1,0 +1,259 @@
+.header-top {
+    background-color: white;
+    color: #333;
+    padding: 10px 0;
+}
+.header-top .btn {
+    background-color: #0d6efd;
+    color: white;
+}
+.header-bottom {
+    background-color: #d4415e;
+    padding: 15px 0;
+}
+.header-bottom .navbar-nav .nav-link {
+    color: white;
+}
+.header-bottom .navbar-nav .nav-link:hover {
+    color: #d4d4d4;
+}
+.navbar-brand img {
+    height: 50px;
+}
+
+/* image enquirey button */
+
+.hero-section {
+    background-image: url('src/assets/images/creative-education-background-with-school-supplies-vector.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  .hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adds a dark overlay to the background */
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+  }
+
+  .hero-content h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  .hero-content .btn-enquiry {
+    background-color: #d9534f;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-size: 16px;
+    border: none;
+    margin-top: 20px;
+  }
+
+  .hero-content .btn-enquiry:hover {
+    background-color: #c9302c;
+  }
+
+
+/* about section */
+
+.about-section {
+    padding: 50px 0;
+}
+.about-heading {
+    color: #007bff; 
+    font-size: 3rem;
+    font-weight: bold;
+}
+.principal-message {
+    font-size: 1.1rem;
+}
+.read-more-btn {
+    background-color: #e83e8c; 
+    color: #fff;
+    border: none;
+}
+.read-more-btn:hover {
+    background-color: #d63384; 
+}
+
+
+/* genius sesction */
+
+.why-genius-section {
+    background: url('src/assets/images/Orenge Backgraund.png') no-repeat center center;
+    background-size: cover;
+    padding: 50px 0;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+/* our event section */
+.event-section {
+    /* background-color: #FF6200;  */
+    background: url('src/assets/images/Orenge Backgraund.png') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+  }
+  .event-section h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  .event-section .divider {
+    width: 80px;
+    height: 3px;
+    background-color: white;
+    margin: 0 auto 30px;
+  }
+  .event-section img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .btn-explore {
+    background-color: #B54269;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 25px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 30px;
+  }
+
+
+/* what we care section */
+
+.addsection{
+    margin-bottom: 60px;
+}
+
+.why-genius-content {
+    /* background-color: rgba(232, 62, 140, 0.9);  */
+    border-radius: 25px;
+    padding: 40px;
+    color: white;
+}
+
+.why-genius-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.why-genius-content p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+
+/* accadmic section */
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card img {
+    object-fit: cover;
+    height: 200px;
+    border: 8px solid #28a745;
+}
+.card-body {
+    background-color: #28a745; /* Green background for body */
+    color: white;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+/* feedback section */
+.carousel-item {
+    padding: 20px;
+}
+.feedback-card {
+    padding: 20px;
+    border: 1px solid #d26309;
+    border-radius: 10px;
+    text-align: center;
+}
+.feedback-card p {
+    font-style: italic;
+    font-size: 1rem;
+}
+.feedback-card span {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+.carousel-indicators [data-bs-target] {
+    background-color: #333;
+}
+
+
+/* footer section */
+
+.footer-section {
+    background-color: #1a2537;
+    color: white;
+    padding: 50px 0;
+  }
+  .footer-section .footer-logo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  .footer-section h5 {
+    color: #0088ff;
+  }
+  .footer-section a {
+    color: white;
+    text-decoration: none;
+  }
+  .visitor-count {
+    color: #FF6200;
+    font-weight: bold;
+  }
+  .social-icons {
+    margin-top: 20px;
+  }
+  .social-icons i {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+
+  .herobro{
+    color: #0088ff;
+  }
+
+  .chairmandesh{
+    margin-bottom: 30px;
+    padding-bottom: 50px;
+  }
